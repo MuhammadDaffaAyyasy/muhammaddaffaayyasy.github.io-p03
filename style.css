@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: brown;
+}
+
+h1 {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+h1:hover {
+  color: aqua;
+  letter-spacing: 2px;
+}
+p {
+  color: white;
+}
+img {
+  width: 4cm;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px gray;
+  padding: 5px;
+  background: white;
+  margin: 15px;
+  transition: 0.2s;
+  opacity: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img:hover {
+  transform: scale(1.2);
+  opacity: 100%;
+  box-shadow: 1px 1px 6px gold;
+}
+
+td {
+  background: pink;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+td:hover {
+  background: white;
+}
+.tabelku {
+  width: 80%;
+  max-width: 400%;
+}
+
+.sedulur-kelas {
+  text-align: center;
+  margin-top: 25px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+.back-to-index a {
+  background-color: white;
+  margin: 30px;
+  padding: 12px 25px;
+}
+
+.data {
+  text-align: center;
+}
